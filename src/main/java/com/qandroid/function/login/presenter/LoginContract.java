@@ -1,12 +1,12 @@
-package com.qproject.feature.login.presenter;
+package com.qandroid.function.login.presenter;
 
 import android.content.Context;
 import android.os.Message;
 
-import com.qproject.common.QBasePresenter;
-import com.qproject.common.QBaseView;
-import com.qproject.feature.login.model.LoginParamQ;
-import com.qproject.feature.login.model.LoginResultQ;
+import com.qandroid.common.QBasePresenter;
+import com.qandroid.common.QBaseView;
+import com.qandroid.function.login.model.LoginParamQ;
+import com.qandroid.function.login.model.LoginResultQ;
 
 /**
  * 登录View和Modle沟通接口

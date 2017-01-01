@@ -1,4 +1,4 @@
-package com.qproject.feature.bitmap;
+package com.qandroid.function.bitmap;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -15,6 +15,9 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 
+import com.qandroid.common.cache.DiskLruCache;
+import com.qandroid.function.R;
+
 import java.io.File;
 import java.io.FileDescriptor;
 import java.io.FileInputStream;
@@ -30,9 +33,6 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.List;
-
-import com.qproject.common.cache.DiskLruCache;
-import com.qproject.feature.R;
 
 import static android.os.Environment.isExternalStorageRemovable;
 

@@ -1,4 +1,4 @@
-package com.qproject.feature.bitmap;
+package com.qandroid.function.bitmap;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -10,7 +10,7 @@ import android.widget.BaseAdapter;
 import android.widget.Gallery;
 import android.widget.ImageView;
 
-import com.qproject.feature.R;
+import com.qandroid.function.R;
 
 public class BitmapActivity extends AppCompatActivity {
     private int[] images = new int[]{R.drawable.p1, R.drawable.p2, R.drawable.p3};

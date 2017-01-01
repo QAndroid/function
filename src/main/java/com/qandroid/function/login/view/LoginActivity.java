@@ -1,4 +1,4 @@
-package com.qproject.feature.login.view;
+package com.qandroid.function.login.view;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -8,12 +8,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.qproject.feature.R;
-import com.qproject.feature.login.presenter.LoginContract;
-import com.qproject.feature.login.model.LoginModelImp;
-import com.qproject.feature.login.model.LoginParamQ;
-import com.qproject.feature.login.presenter.LoginPresenterQ;
-import com.qproject.feature.login.model.LoginResultQ;
+import com.qandroid.function.R;
+import com.qandroid.function.login.model.LoginModelImp;
+import com.qandroid.function.login.model.LoginParamQ;
+import com.qandroid.function.login.model.LoginResultQ;
+import com.qandroid.function.login.presenter.LoginContract;
+import com.qandroid.function.login.presenter.LoginPresenterQ;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener, LoginContract.ViewQ {
     private LoginInputView userNameInput;

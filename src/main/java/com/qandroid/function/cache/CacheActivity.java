@@ -1,11 +1,11 @@
-package com.qproject.feature.cache;
+package com.qandroid.function.cache;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.GridView;
 
-import com.qproject.feature.R;
-import com.qproject.feature.bitmap.ImageListAdapter;
+import com.qandroid.function.R;
+import com.qandroid.function.bitmap.ImageListAdapter;
 
 import java.util.ArrayList;
 import java.util.Random;

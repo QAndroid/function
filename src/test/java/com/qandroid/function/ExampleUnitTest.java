@@ -1,4 +1,4 @@
-package com.qproject.feature;
+package com.qandroid.feature;
 
 import org.junit.Test;
 

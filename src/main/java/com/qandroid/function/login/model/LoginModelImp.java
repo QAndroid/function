@@ -1,9 +1,9 @@
-package com.qproject.feature.login.model;
+package com.qandroid.function.login.model;
 
 import android.content.Context;
 
 import com.alibaba.fastjson.JSON;
-import com.qproject.common.utils.HttpsTools;
+import com.qandroid.common.utils.HttpsTools;
 
 /**
  * Created by chengxiang.peng on 2016/11/27.

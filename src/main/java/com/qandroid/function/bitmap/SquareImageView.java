@@ -1,4 +1,4 @@
-package com.qproject.feature.bitmap;
+package com.qandroid.function.bitmap;
 
 import android.content.Context;
 import android.util.AttributeSet;

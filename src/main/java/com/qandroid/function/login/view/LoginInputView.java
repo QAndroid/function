@@ -1,4 +1,4 @@
-package com.qproject.feature.login.view;
+package com.qandroid.function.login.view;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -7,7 +7,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.qproject.feature.R;
+import com.qandroid.function.R;
 
 /**
  * 登录输入框，用来展示一个输入标题+一个输入框

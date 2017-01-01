@@ -1,30 +1,24 @@
-package com.qproject.feature;
+package com.qandroid.function;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.qproject.feature.bitmap.BitmapActivity;
-import com.qproject.feature.cache.CacheActivity;
-import com.qproject.feature.login.view.LoginActivity;
-import com.qproject.rn.RnActivity;
+import com.qandroid.function.bitmap.BitmapActivity;
+import com.qandroid.function.cache.CacheActivity;
+import com.qandroid.function.login.view.LoginActivity;
 
-public class FeatureActivity extends AppCompatActivity {
+public class FunctionActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_feature);
+        setContentView(R.layout.activity_function);
     }
 
     public void toLogin(View view) {
         Intent intent = new Intent(this, LoginActivity.class);
-        startActivity(intent);
-    }
-
-    public void toRn(View view) {
-        Intent intent = new Intent(this, RnActivity.class);
         startActivity(intent);
     }
 

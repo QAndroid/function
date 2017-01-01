@@ -1,9 +1,7 @@
-package com.qproject.feature.login.model;
+package com.qandroid.function.login.model;
 
 import android.content.Context;
 
-import com.qproject.feature.login.model.LoginParamQ;
-import com.qproject.feature.login.model.LoginResultQ;
 
 /**
  * 登录模型接口

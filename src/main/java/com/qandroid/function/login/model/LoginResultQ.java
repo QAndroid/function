@@ -1,6 +1,6 @@
-package com.qproject.feature.login.model;
+package com.qandroid.function.login.model;
 
-import com.qproject.common.QBaseResult;
+import com.qandroid.common.QBaseResult;
 
 /**
  * 登录响应

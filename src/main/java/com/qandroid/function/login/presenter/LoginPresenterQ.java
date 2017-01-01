@@ -1,10 +1,10 @@
-package com.qproject.feature.login.presenter;
+package com.qandroid.function.login.presenter;
 
 import android.content.Context;
 
-import com.qproject.feature.login.model.LoginModel;
-import com.qproject.feature.login.model.LoginParamQ;
-import com.qproject.feature.login.model.LoginResultQ;
+import com.qandroid.function.login.model.LoginModel;
+import com.qandroid.function.login.model.LoginParamQ;
+import com.qandroid.function.login.model.LoginResultQ;
 
 /**
  * 登录Preserent类，处理从Model层获取数据，在View层更新

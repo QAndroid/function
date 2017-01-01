@@ -1,6 +1,6 @@
-package com.qproject.feature.login.model;
+package com.qandroid.function.login.model;
 
-import com.qproject.common.QBaseParam;
+import com.qandroid.common.QBaseParam;
 
 /**
  * 登录参数

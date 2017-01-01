@@ -1,4 +1,4 @@
-package com.qproject.feature;
+package com.qandroid.function;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

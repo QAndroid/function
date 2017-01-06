@@ -13,7 +13,6 @@ public class LoginModelImp implements LoginModel {
     @Override
     public LoginResultQ loginByUserNameAndPassword(Context context, LoginParamQ loginParam) {
         String result = HttpsTools.doPost(context, loginParam);
-        LoginResultQ loginResult = JSON.parseObject(result, LoginResultQ.class);
-        return loginResult;
+        return JSON.parseObject(result, LoginResultQ.class);
     }
 }

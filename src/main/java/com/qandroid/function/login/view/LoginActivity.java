@@ -62,8 +62,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     public LoginParamQ getInputLoginParam() {
         final String userName = userNameInput.getContent();
         final String passWorld = passWordInput.getContent();
-        LoginParamQ loginParam = new LoginParamQ(userName, passWorld);
-        return loginParam;
+        return new LoginParamQ(userName, passWorld);
     }
 
     @Override

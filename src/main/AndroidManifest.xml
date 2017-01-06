@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.qandroid.function">
+          package="com.qandroid.function">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -12,10 +12,12 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FeatureActivity" />
-        <activity android:name=".login.view.LoginActivity"></activity>
-        <activity android:name=".cache.CacheActivity"></activity>
-        <activity android:name=".bitmap.BitmapActivity"></activity>
+        <activity android:name=".FunctionActivity"/>
+        <activity android:name=".login.view.LoginActivity"/>
+        <activity android:name=".cache.CacheActivity"/>
+        <activity android:name=".bitmap.BitmapActivity"/>
+        <activity android:name=".log.LogActivity">
+        </activity>
     </application>
 
 </manifest>

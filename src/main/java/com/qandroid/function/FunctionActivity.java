@@ -5,11 +5,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.qandroid.common.QBaseActivity;
 import com.qandroid.function.bitmap.BitmapActivity;
 import com.qandroid.function.cache.CacheActivity;
+import com.qandroid.function.log.LogActivity;
 import com.qandroid.function.login.view.LoginActivity;
 
-public class FunctionActivity extends AppCompatActivity {
+public class FunctionActivity extends QBaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,17 +20,18 @@ public class FunctionActivity extends AppCompatActivity {
     }
 
     public void toLogin(View view) {
-        Intent intent = new Intent(this, LoginActivity.class);
-        startActivity(intent);
+        toActivityByClass(LoginActivity.class);
     }
 
     public void toCache(View view) {
-        Intent intent = new Intent(this, CacheActivity.class);
-        startActivity(intent);
+        toActivityByClass(CacheActivity.class);
     }
 
     public void toBitmap(View view) {
-        Intent intent = new Intent(this, BitmapActivity.class);
-        startActivity(intent);
+        toActivityByClass(BitmapActivity.class);
+    }
+
+    public void toLog(View view) {
+        toActivityByClass(LogActivity.class);
     }
 }

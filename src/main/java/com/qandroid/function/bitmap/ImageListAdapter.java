@@ -343,6 +343,7 @@ public class ImageListAdapter extends BaseAdapter {
                 try {
                     diskCacheLock.wait();
                 } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
             }
 
@@ -411,7 +412,11 @@ public class ImageListAdapter extends BaseAdapter {
             e.printStackTrace();
         } finally {
             if (is != null) {
-                is.close();
+                try {
+                    is.close();
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
             }
         }
 

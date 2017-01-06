@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.util.Log;
 
 import com.alibaba.fastjson.JSON;
-import com.orhanobut.logger.LogAdapter;
 import com.orhanobut.logger.Logger;
 import com.qandroid.function.R;
 import com.qandroid.function.login.model.LoginParamQ;

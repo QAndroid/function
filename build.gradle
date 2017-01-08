@@ -27,5 +27,5 @@ dependencies {
         exclude group: 'xmlpull'
     }
     compile project(':common')
-    compile project(':logger')
+    compile 'com.orhanobut:logger:1.15'
 }
